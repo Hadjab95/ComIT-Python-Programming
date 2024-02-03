@@ -11,11 +11,10 @@
 #Same Algorithm using a function
 
 def divisible_numbers(n, m):
-    print(f"Enter a number: {n}")
-    print(f"Enter another number: {m}")
     return n%m == 0
-n = 6
-m = 4
+    
+n = 25
+m = 5
 result = divisible_numbers(n, m)
 print(f" {n} is divisible by {m}: {result}")
 
