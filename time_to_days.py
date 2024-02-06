@@ -11,5 +11,5 @@ Hours = (Timeafterdays - Timeafterhours)/3600
 Remainingseconds = Timeafterhours % 60
 Minutes = (Timeafterhours - Remainingseconds)/60
 
-print(f" {TotalSeconds} = {Days} days, {Hours} hours, {Minutes} minutes  ")
+print(f" {TotalSeconds} = {Days} days, {Hours} hours, {Minutes} minutes and {Remainingseconds} seconds.")
 
