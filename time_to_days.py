@@ -13,14 +13,3 @@ Minutes = (Timeafterhours - Remainingseconds)/60
 
 print(f" {TotalSeconds} = {Days} days, {Hours} hours, {Minutes} minutes  ")
 
-
-
-
-
-
-seconds = int(input("Enter the number of seconds: "))
-mins= seconds/60
-hours = seconds/3600
-days = seconds/86400
-
-#print(f"{seconds} seconds = {days} days, {hours} hours, {mins} minutes and {seconds} seconds.")
