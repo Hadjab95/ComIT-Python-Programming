@@ -1,6 +1,6 @@
 #This Algorithm will translate a time expressed in seconds to a time expressed in days, hours, minutes and seconds.
 
-TotalSeconds = input("Enter the number of seconds: ")
+TotalSeconds = float(input("Enter the number of seconds: "))
 
 Timeafterdays = TotalSeconds % 86400
 Days = (TotalSeconds - Timeafterdays)/86400
